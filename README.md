@@ -3,7 +3,7 @@
 ## LangChain
 LangChain is a library that simplifies the interaction with OpenAI's language model, enabling the generation of text using prompts and templates.
 
-requirement:  `Python`
+Language requirement:  `Python`
 
 ### Dependencies
 *The code snippet requires the following dependencies:*
@@ -11,14 +11,14 @@ requirement:  `Python`
 - Open terminal
 ` pip install langchain openapi streamlit `
 
-## How to run:
-`streamlit run main.py`
-
 ### API Key
 The OpenAI API key is set using the os.environ method and is stored in a separate file called secret_key.py using the openapi_key variable.
 - `Visit https://openai.com/`
 - Signup and create your secret_key
 - copy and input it in the secret_key.py
+  
+## How to run:
+`streamlit run main.py`
 
 ### Used Classes
 - langchain.llms.OpenAI: This is the OpenAI language model class used for text generation.
