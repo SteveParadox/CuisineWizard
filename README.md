@@ -58,3 +58,5 @@ The code includes a Streamlit application that allows users to select a cuisine 
 - If a dish is selected (` if prepare: `), the how_to function is called to retrieve the preparation instructions.
 - The preparation instructions are displayed using st.write. 
 The code includes a Streamlit application that allows users to select a cuisine and retrieve the restaurant name, menu items, and preparation instructions for a selected dish.
+
+# Hope you have fun with this!!
