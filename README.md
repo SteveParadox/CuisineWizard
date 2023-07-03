@@ -8,12 +8,14 @@ requirement:  `Python`
 ### Dependencies
 *The code snippet requires the following dependencies:*
 
-## How to run:
-Open terminal
-- run:
+- Open terminal
 ` pip install langchain openapi streamlit `
 
-### Secret Key:
+## How to run:
+`streamlit run main.py`
+
+### API Key
+The OpenAI API key is set using the os.environ method and is stored in a separate file called secret_key.py using the openapi_key variable.
 - `Visit https://openai.com/`
 - Signup and create your secret_key
 - copy and input it in the secret_key.py
@@ -23,9 +25,6 @@ Open terminal
 - langchain.prompts.PromptTemplate: This class helps in creating prompt templates with input variables.
 - langchain.chains.LLMChain: This class represents a single language model chain in the sequential chain.
 - langchain.chains.SequentialChain: This class represents a sequential chain of multiple language model chains.
-
-### API Key
-The OpenAI API key is set using the os.environ method and is stored in a separate file called secret_key.py using the openapi_key variable.
 
 ### Functions
 ` get_restaurant_name_and_items(spice) `
