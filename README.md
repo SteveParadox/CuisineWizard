@@ -9,6 +9,8 @@ Language requirement:  `Python`
 *The code snippet requires the following dependencies:*
 
 - Open terminal
+- run
+###
 ` pip install langchain openapi streamlit `
 
 ### API Key
